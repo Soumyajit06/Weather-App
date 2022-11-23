@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    font-size: 120%;
+}
+
+.card {
+    background: #eaeaead0;
+    color: black;  /*this is to set the color of the text to be entered as black*/
+    padding: 1.5em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: black;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 50px);
+}
+
+button {
+    background: #7c7c7c2b;
+    border: none;
+    margin: 0.5em;
+    height: 42.4px;
+    width: 42.4px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
